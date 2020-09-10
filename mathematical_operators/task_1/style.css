@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    justify-items: center;
+    
+}
+ main {
+    margin-top: 20px;
+} 
+input {
+    margin: 10px;
+}
+.result-div {
+    margin-top: 20px;
+}
+button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}

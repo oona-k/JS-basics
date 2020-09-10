@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="./scripts.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>Task 1</title>
+  </head>
+  <body>
+    <main>
+      <label for="price">Price of the gasoline (€/l)</label>
+      <input type="number" name="price" id="price" />
+      <label for="money">Amount of money (€)</label>
+      <input type="number" name="money" id="money" />
+      <button id="calculate-btn" onclick="calculate()" value="calculate">
+        Calculate
+      </button>
+      <div class="result-div">Amount of gasoline you get: <span id="result"></span></div>
+    </main>
+  </body>
+</html>
